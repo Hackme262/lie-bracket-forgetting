@@ -1,0 +1,38 @@
+{
+  "scenario": "domain",
+  "lr": 0.05,
+  "seeds": 5,
+  "n_pairs": 100,
+  "K": 20,
+  "mean_task_accuracy": 0.9893076205253601,
+  "forgetting_mean": 0.3501546239852905,
+  "forgetting_max": 0.8521878123283386,
+  "rho": {
+    "bracket_stored": {
+      "rho": 0.39965196519651963,
+      "p": 3.8002329738960955e-05
+    },
+    "ewc_penalty": {
+      "rho": 0.5907710771077107,
+      "p": 9.79863290671076e-11
+    },
+    "est_watch": {
+      "rho": 0.40823282328232824,
+      "p": 2.4843387784770436e-05
+    },
+    "curv_stored_switch": {
+      "rho": 0.25383738373837383,
+      "p": 0.0108235567794241
+    },
+    "bracket_full": {
+      "rho": 0.6944614461446145,
+      "p": 1.12153562373718e-15
+    },
+    "simple_check": {
+      "rho": 0.8147614761476147,
+      "p": 6.208808386483415e-25
+    }
+  },
+  "partial_bracket_stored_given_ewc_penalty": -0.05705705403383698,
+  "partial_bracket_stored_given_est_watch": 0.1570202042793079
+}

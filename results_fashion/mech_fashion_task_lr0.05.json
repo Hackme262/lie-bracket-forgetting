@@ -1,0 +1,16 @@
+{
+  "dataset": "fashion",
+  "scenario": "task",
+  "lr": 0.05,
+  "seeds": 3,
+  "c1_push_A_mean": 0.090928865224123,
+  "c1_push_ratio_A_over_B": 0.03601045396644622,
+  "c2_slope_share_step20": 0.3490130838131386,
+  "c2_slope_share_end": 0.24115165546664738,
+  "c2_taylor_vs_actual_step20": 0.9407613225896084,
+  "c3_rho_full_bracket": 0.6721311475409837,
+  "c3_rho_HBgA": 0.495137538205057,
+  "c3_rho_HAgB": 0.7105862739649903,
+  "c3_rho_slope20": -0.294581828285635,
+  "c3_rho_curv20": 0.7099749930536261
+}

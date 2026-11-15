@@ -1,0 +1,16 @@
+{
+  "dataset": "mnist",
+  "scenario": "domain",
+  "lr": 0.05,
+  "seeds": 3,
+  "rho": {
+    "order_gap_on_A vs br_start": -0.029464908746124566,
+    "order_gap_on_A vs br_onA_start": 0.6475687691025286,
+    "order_gap_on_A vs br_early": 0.6941928313420396,
+    "weight_gap vs br_start": -0.2413793103448276,
+    "weight_gap vs br_early": 0.693036891375828,
+    "forgetting vs order_gap_on_A": 0.9999444290080579,
+    "forgetting vs br_early": 0.6938594053903863
+  },
+  "order_share_of_forgetting": 1.0015599142082785
+}

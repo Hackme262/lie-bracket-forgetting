@@ -1,0 +1,11 @@
+{
+  "dataset": "fashion",
+  "scenario": "domain",
+  "lr": 0.05,
+  "seeds": 2,
+  "largest_curvature_mean": 3.8499554085537846,
+  "most_negative_mean": -0.2294521710952191,
+  "neg_to_pos_ratio": 0.07153422190002251,
+  "cos_gB_HAgB_mean": 0.6234756536781788,
+  "cos_below_0.3_share": 0.05
+}

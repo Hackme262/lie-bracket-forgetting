@@ -1,0 +1,20 @@
+{
+  "scenario": "domain",
+  "lr": 0.05,
+  "epochs": 6,
+  "seeds": 3,
+  "mean_task_accuracy": 0.784600035349528,
+  "forgetting_mean": 0.19860833883285522,
+  "forgetting_max": 0.43050000071525574,
+  "rho": {
+    "bracket_full": 0.152820227841067,
+    "br_conv": 0.18305084745762715,
+    "br_head": 0.15443178660739096,
+    "br_onA_full": 0.3046401778271743,
+    "br_onA_stored": 0.20172270075020843,
+    "br_topA_stored": 0.12192275632120037,
+    "ewc_penalty": 0.1952764656849125,
+    "est_watch": 0.6988052236732427,
+    "simple_check": 0.7287024173381497
+  }
+}

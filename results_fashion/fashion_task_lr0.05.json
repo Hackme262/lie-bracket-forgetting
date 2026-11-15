@@ -1,0 +1,19 @@
+{
+  "scenario": "task",
+  "lr": 0.05,
+  "seeds": 5,
+  "mean_task_accuracy": 0.9903000378608704,
+  "forgetting_mean": 0.009419993758201598,
+  "forgetting_max": 0.08899998664855957,
+  "rho": {
+    "bracket_stored": 0.7023342334233423,
+    "ewc_penalty": 0.33246924692469243,
+    "est_watch": 0.3119111911191119,
+    "bracket_full": 0.7409180918091808,
+    "simple_check": 0.3349174917491749,
+    "bracket_buf10": 0.4055205520552055,
+    "bracket_buf50": 0.5169156915691568,
+    "check_buf10": 0.28912091209120905,
+    "check_buf50": 0.2908250825082508
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "mnist",
+  "scenario": "task",
+  "lr": 0.05,
+  "seeds": 3,
+  "rho": {
+    "order_gap_on_A vs br_start": 0.3293398479472489,
+    "order_gap_on_A vs br_onA_start": -0.0899138649624896,
+    "order_gap_on_A vs br_early": 0.8270630730758545,
+    "weight_gap vs br_start": 0.6369299221357062,
+    "weight_gap vs br_early": 0.6581237542200427,
+    "forgetting vs order_gap_on_A": 0.997499305362601,
+    "forgetting vs br_early": 0.823117532647958
+  },
+  "order_share_of_forgetting": 1.0382741984080004
+}

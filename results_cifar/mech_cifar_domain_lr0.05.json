@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar",
+  "scenario": "domain",
+  "lr": 0.05,
+  "seeds": 3,
+  "c1_push_A_mean": 0.7945212543010711,
+  "c1_push_ratio_A_over_B": 0.38386400813857713,
+  "c2_slope_share_step20": 0.22874397994704446,
+  "c2_slope_share_end": 0.14960115006079117,
+  "c2_taylor_vs_actual_step20": 0.8763545429285914,
+  "c3_rho_full_bracket": 0.297026951931092,
+  "c3_rho_HBgA": 0.25273687135315365,
+  "c3_rho_HAgB": 0.19488746874131707,
+  "c3_rho_slope20": 0.0032786885245901644,
+  "c3_rho_curv20": 0.7322589608224508
+}

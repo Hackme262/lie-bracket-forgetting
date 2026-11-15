@@ -1,0 +1,11 @@
+{
+  "dataset": "mnist",
+  "scenario": "task",
+  "lr": 0.05,
+  "seeds": 2,
+  "largest_curvature_mean": 5.419928217563385,
+  "most_negative_mean": -0.28833178415193933,
+  "neg_to_pos_ratio": 0.06293136118348931,
+  "cos_gB_HAgB_mean": 0.06728657225612551,
+  "cos_below_0.3_share": 1.0
+}

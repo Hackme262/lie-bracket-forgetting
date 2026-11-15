@@ -1,0 +1,16 @@
+{
+  "dataset": "mnist",
+  "scenario": "domain",
+  "lr": 0.05,
+  "seeds": 3,
+  "c1_push_A_mean": 0.14950176427761713,
+  "c1_push_ratio_A_over_B": 0.02936004287718485,
+  "c2_slope_share_step20": 0.10648335672688505,
+  "c2_slope_share_end": 0.08404710331621239,
+  "c2_taylor_vs_actual_step20": 0.6021672686857462,
+  "c3_rho_full_bracket": 0.6938594053903863,
+  "c3_rho_HBgA": 0.684078910808558,
+  "c3_rho_HAgB": 0.789997221450403,
+  "c3_rho_slope20": 0.3699360933592665,
+  "c3_rho_curv20": 0.46846346207279804
+}

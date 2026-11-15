@@ -1,0 +1,16 @@
+{
+  "dataset": "fashion",
+  "scenario": "task",
+  "lr": 0.05,
+  "seeds": 3,
+  "rho": {
+    "order_gap_on_A vs br_start": 0.1403196786324876,
+    "order_gap_on_A vs br_onA_start": -0.2208946929702696,
+    "order_gap_on_A vs br_early": 0.68135593220339,
+    "weight_gap vs br_start": 0.5096774193548387,
+    "weight_gap vs br_early": -0.056261297454864266,
+    "forgetting vs order_gap_on_A": 0.9925534870797446,
+    "forgetting vs br_early": 0.6721311475409837
+  },
+  "order_share_of_forgetting": 0.9988003395147926
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar",
+  "scenario": "task",
+  "lr": 0.05,
+  "seeds": 3,
+  "rho": {
+    "order_gap_on_A vs br_start": 0.3322817186966021,
+    "order_gap_on_A vs br_onA_start": 0.0032786885245901644,
+    "order_gap_on_A vs br_early": 0.02706307307585441,
+    "weight_gap vs br_start": 0.5612825183729658,
+    "weight_gap vs br_early": 0.16244615727580372,
+    "forgetting vs order_gap_on_A": 0.9553764934704085,
+    "forgetting vs br_early": 0.04145595998888581
+  },
+  "order_share_of_forgetting": 1.2004183248097315
+}

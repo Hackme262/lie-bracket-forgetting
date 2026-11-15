@@ -1,0 +1,11 @@
+{
+  "dataset": "cifar_feat",
+  "scenario": "task",
+  "lr": 0.05,
+  "seeds": 2,
+  "largest_curvature_mean": 2.3572899999056274,
+  "most_negative_mean": -0.1241465565149639,
+  "neg_to_pos_ratio": 0.05402551969891645,
+  "cos_gB_HAgB_mean": 0.057257325993850826,
+  "cos_below_0.3_share": 1.0
+}

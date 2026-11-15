@@ -1,0 +1,43 @@
+{
+  "scenario": "task",
+  "dataset": "MNIST",
+  "seeds": 5,
+  "n_pairs": 100,
+  "mean_task_accuracy": 0.9892381930351257,
+  "forgetting_mean": 0.012663996815681457,
+  "forgetting_median": 0.0077842772006988525,
+  "forgetting_max": 0.07060009241104126,
+  "rho": {
+    "bracket_early": {
+      "rho": 0.8217221722172215,
+      "p": 1.1371654846715754e-25
+    },
+    "bracket_norm": {
+      "rho": 0.559123912391239,
+      "p": 1.4835068198015899e-09
+    },
+    "curvature_term": {
+      "rho": 0.47869186918691864,
+      "p": 4.7123033546404903e-07
+    },
+    "gB_norm": {
+      "rho": 0.35607560756075607,
+      "p": 0.0002769933329732639
+    },
+    "grad_cos": {
+      "rho": 0.04604860486048604,
+      "p": 0.6491538030812363
+    },
+    "early_loss_rise_A": {
+      "rho": 0.8748154815481547,
+      "p": 1.3089685341983e-32
+    }
+  },
+  "partial_bracket_early_given_early_loss_rise_A": 0.5212804991816107,
+  "partial_bracket_early_given_gB_norm": 0.8229029406725692,
+  "partial_bracket_norm_given_curvature_term": 0.332219246367622,
+  "curve_pair": [
+    4,
+    3
+  ]
+}
