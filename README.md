@@ -1,6 +1,8 @@
 # Does Learning Order Explain Forgetting?
 
-Code and results for the paper
+[![arXiv](https://img.shields.io/badge/arXiv-2611.20087-b31b1b.svg)](https://arxiv.org/abs/2611.20087)
+
+Code and results for the paper ([arXiv:2611.20087](https://arxiv.org/abs/2611.20087), [PDF](https://arxiv.org/pdf/2611.20087))
 
 > **Does Learning Order Explain Forgetting? The Lie Bracket as an Early-Warning Signal for Catastrophic Forgetting Without Old Data**
 > Ephraim Kofi Ayi Kwapong, Responsible Artificial Intelligence Lab (RAIL), KNUST, Ghana.
@@ -46,9 +48,10 @@ Runs are seeded, but exact numbers can differ slightly across GPUs and library v
 
 ```
 @article{kwapong2026order,
-  title  = {Does Learning Order Explain Forgetting? The Lie Bracket as an Early-Warning Signal for Catastrophic Forgetting Without Old Data},
-  author = {Kwapong, Ephraim Kofi Ayi},
-  year   = {2026}
+  title   = {Does Learning Order Explain Forgetting? The Lie Bracket as an Early-Warning Signal for Catastrophic Forgetting Without Old Data},
+  author  = {Kwapong, Ephraim Kofi Ayi},
+  journal = {arXiv preprint arXiv:2611.20087},
+  year    = {2026}
 }
 ```
 
