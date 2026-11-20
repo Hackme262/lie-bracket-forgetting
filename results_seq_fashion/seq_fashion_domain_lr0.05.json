@@ -1,0 +1,79 @@
+{
+  "dataset": "fashion",
+  "scenario": "domain",
+  "lr": 0.05,
+  "seeds": 5,
+  "orders": 4,
+  "events": 200,
+  "mean_task_accuracy": 0.9897700393199921,
+  "mean_loss_increase": 0.3933760464677471,
+  "mean_acc_drop": 0.09239750161767006,
+  "max_acc_drop": 0.4650000333786011,
+  "rho": {
+    "bracket_stored": 0.2967479186979675,
+    "ewc_penalty": 0.42926273156828926,
+    "est_watch": 0.5964809120228007,
+    "bracket_full": 0.11703892597314934,
+    "simple_check": 0.6236360909022727,
+    "ewc_total": 0.1891697292432311,
+    "est_total": 0.30906922673066833
+  },
+  "by_age": {
+    "1": {
+      "n": 80,
+      "mean_loss_increase": 0.7196697864557791,
+      "mean_acc_drop": 0.19132500067353247,
+      "rho": {
+        "bracket_stored": 0.8003750586029067,
+        "ewc_penalty": 0.6828176277543366,
+        "est_watch": 0.7810126582278482,
+        "bracket_full": 0.6077121425222691,
+        "simple_check": 0.7403187998124708,
+        "ewc_total": 0.6828176277543366,
+        "est_total": 0.7810126582278482
+      }
+    },
+    "2": {
+      "n": 60,
+      "mean_loss_increase": 0.2894147747894749,
+      "mean_acc_drop": 0.03991666833559672,
+      "rho": {
+        "bracket_stored": 0.19972214504028904,
+        "ewc_penalty": 0.033787163100861356,
+        "est_watch": 0.4731314253959434,
+        "bracket_full": 0.005501528202278412,
+        "simple_check": 0.5254237288135594,
+        "ewc_total": 0.4361211447624341,
+        "est_total": 0.41394831897749385
+      }
+    },
+    "3": {
+      "n": 40,
+      "mean_loss_increase": -0.004590586549602449,
+      "mean_acc_drop": 0.012200002372264863,
+      "rho": {
+        "bracket_stored": -0.2326454033771107,
+        "ewc_penalty": 0.250093808630394,
+        "est_watch": 0.3801125703564729,
+        "bracket_full": -0.10469043151969983,
+        "simple_check": 0.4891181988742965,
+        "ewc_total": -0.008630393996247657,
+        "est_total": -0.09212007504690432
+      }
+    },
+    "4": {
+      "n": 20,
+      "mean_loss_increase": 0.19601816758513452,
+      "mean_acc_drop": 0.014525003731250763,
+      "rho": {
+        "bracket_stored": -0.08120300751879699,
+        "ewc_penalty": 0.38195488721804516,
+        "est_watch": 0.5052631578947367,
+        "bracket_full": -0.07669172932330826,
+        "simple_check": 0.7518796992481201,
+        "ewc_total": 0.22105263157894736,
+        "est_total": -0.030075187969924807
+      }
+    }
+  }
+}

@@ -13,15 +13,16 @@ The paper tests whether the Lie bracket of two tasks' gradient fields, `H_B g_A 
 
 | Folder | Contents |
 |---|---|
-| `notebooks/` | The four Jupyter notebooks that produced every result. Saved outputs are included. |
+| `notebooks/` | The five Jupyter notebooks that produced every result. Saved outputs are included. |
 | `results/` | Split MNIST, first run with the full bracket (uses old data). |
 | `results_stored/` | Split MNIST, stored summary (no old data): three learning rates, tiny buffers, order, mechanism and curvature tests. |
 | `results_fashion/` | Split Fashion-MNIST. |
 | `results_cifar_feat/` | Split CIFAR-10 on frozen ResNet-18 features (old task well learned). |
 | `results_cifar_feat_K50/`, `results_cifar_feat_K100/` | The same with a summary of 50 and 100 eigenpairs (fast scenario, 3 seeds). |
 | `results_cifar/` | Split CIFAR-10 with a small CNN trained from pixels (old task half learned). |
+| `results_seq_mnist/`, `results_seq_fashion/`, `results_seq_cifar_feat/` | Five-task sequences (added in v2 of the paper): one row per (old task, new task) event, 200 per scenario. |
 
-Each `*.csv` file has one row per run (ordered task pair and seed). Each `*.json` file holds the rank correlations printed by the notebook. File name prefixes: `order_` (order test), `mech_` (slope and curvature test), `curv_` (extreme eigenvalues), `diag_` (diagnostics on the CNN), `buffer_` (tiny buffers).
+Each `*.csv` file has one row per run (ordered task pair and seed), or, for the sequences, one row per (old task, new task) event. Each `*.json` file holds the rank correlations printed by the notebook. File name prefixes: `order_` (order test), `mech_` (slope and curvature test), `curv_` (extreme eigenvalues), `diag_` (diagnostics on the CNN), `buffer_` (tiny buffers).
 
 ## Notebooks
 
@@ -31,6 +32,7 @@ Each `*.csv` file has one row per run (ordered task pair and seed). Each `*.json
 | `forgetting_mnist_stored.ipynb` | Split MNIST, stored summary, learning-rate sweep, per-step test, tiny buffers, order / mechanism / curvature tests | `results_stored/` |
 | `forgetting_welllearned.ipynb` | Set `DATASET = "cifar_feat"` or `"fashion"` in Cell 1 | `results_cifar_feat/`, `results_fashion/` |
 | `forgetting_cifar10.ipynb` | Split CIFAR-10, small CNN (about 137k weights), diagnostics | `results_cifar/` |
+| `forgetting_sequence.ipynb` | Five tasks learned one after another (5 seeds x 4 orders); set `DATASET` to `mnist`, `cifar_feat` or `fashion` in Cell 1 | `results_seq_<dataset>/` |
 
 All runs use plain SGD (no momentum), batch size 64, learning rate 0.05 unless stated, 20 ordered task pairs and 5 seeds (100 runs per setting). The two scenarios are `task` (separate outputs per task, slow forgetting) and `domain` (shared outputs, fast forgetting).
 
